@@ -52,7 +52,8 @@ local part = Instance.new("Part")
 part.Size = Vector3.new(4, 4, 4)
 part.Position = Vector3.new(-126, 136, 48)
 part.BrickColor = BrickColor.new("Royal purple")
-part.Material = Enum.Material.ForceField
+part.Material = Enum.Material.Glass
+part.Transparency = 0.7
 part.Anchored = true
 part.Parent = game.Workspace
 
