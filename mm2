@@ -82,25 +82,6 @@ part.Material = Enum.Material.Glass
 part.Anchored = true
 part.Parent = workspace
 
-local function rotatePlayer(humanoid)
-    return function()
-        if humanoid:GetState() == Enum.HumanoidStateType.Seated then
-            humanoid.Sit = false
-        end
-        local character = humanoid.Parent
-        if character then
-            local rootPart = character:FindFirstChild("HumanoidRootPart")
-            if rootPart and rootPart:IsA("Part") then
-                local playerPosition = rootPart.Position
-                local partPosition = part.Position
-                local direction = (playerPosition - partPosition).unit
-                local rotationSpeed = 3 -- Скорость вращения (3 оборота в секунду)
-                rootPart.CFrame = CFrame.new(rootPart.Position) * CFrame.Angles(0, math.rad(rotationSpeed) * tick(), 0) * CFrame.new(direction * 10)
-            end
-        end
-    end
-end
-
 Players.PlayerAdded:Connect(function(player)
     player.CharacterAdded:Connect(function(character)
         local humanoid = character:WaitForChild("Humanoid")
