@@ -36,6 +36,31 @@ function Sit(player, chair)
 end
 
 chair1.Touched:Connect(function(hit)
+local Players = game:GetService("Players")
+
+local function onTouched(hit)
+    if hit.Parent:FindFirstChildOfClass("Humanoid") then
+        local humanoid = hit.Parent:FindFirstChildOfClass("Humanoid")
+        humanoid.WalkSpeed = 24 -- Изменение скорости игрока на 24 при касании
+    end
+end
+
+local part = Instance.new("Part")
+part.Size = Vector3.new(2048, 2048, 2048)
+part.Position = Vector3.new(-107, 146, 21) -- Позиция части
+part.Anchored = true
+part.CanCollide = false
+part.Parent = workspace
+
+part.Touched:Connect(onTouched)
+
+Players.PlayerAdded:Connect(function(player)
+    player.CharacterAdded:Connect(function(character)
+        local humanoid = character:WaitForChild("Humanoid")
+        humanoid.WalkSpeed = 16 -- Начальная скорость игрока (может быть изменена)
+    end)
+end)
+
     local player = game.Players:GetPlayerFromCharacter(hit.Parent)
     if player then
         Sit(player, chair1)
