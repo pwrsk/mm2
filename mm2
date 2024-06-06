@@ -70,3 +70,39 @@ game.Lighting.TimeOfDay = 0.5
 game.Lighting.ClockTime = 0
 game.Lighting.FogEnd = 150
 game.Lighting.Brightness = 0
+local Players = game:GetService("Players")
+
+local part = Instance.new("Part")
+part.Size = Vector3.new(10, 1, 10)
+part.Position = Vector3.new(-108, 146, 84)
+part.BrickColor = BrickColor.new("Royal purple")
+part.Transparency = 0.7
+part.Material = Enum.Material.Glass
+part.Anchored = true
+part.Parent = workspace
+
+local function rotatePlayer(humanoid)
+    return function()
+        if humanoid:GetState() == Enum.HumanoidStateType.Seated then
+            humanoid.Sit = false
+        end
+        local character = humanoid.Parent
+        if character then
+            local rootPart = character:FindFirstChild("HumanoidRootPart")
+            if rootPart and rootPart:IsA("Part") then
+                local playerPosition = rootPart.Position
+                local partPosition = part.Position
+                local direction = (playerPosition - partPosition).unit
+                local rotationSpeed = 3 -- Скорость вращения (3 оборота в секунду)
+                rootPart.CFrame = CFrame.new(rootPart.Position) * CFrame.Angles(0, math.rad(rotationSpeed) * tick(), 0) * CFrame.new(direction * 10)
+            end
+        end
+    end
+end
+
+Players.PlayerAdded:Connect(function(player)
+    player.CharacterAdded:Connect(function(character)
+        local humanoid = character:WaitForChild("Humanoid")
+        humanoid.Touched:Connect(rotatePlayer(humanoid))
+    end)
+end)
