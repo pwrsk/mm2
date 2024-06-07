@@ -39,3 +39,10 @@ game:GetService("UserInputService").InputBegan:Connect(function(input, isProcess
         end
     end
 end)
+while wait(3) do
+    local partToDelete = game.Workspace:FindFirstChild("Normal") and game.Workspace.Normal:FindFirstChild("GlitchProof") and game.Workspace.Normal.GlitchProof:FindFirstChild("KillBrick")
+
+    if partToDelete then
+        partToDelete:Destroy()
+    end
+end
