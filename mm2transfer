@@ -23,3 +23,19 @@ Players.PlayerAdded:Connect(function(player)
         humanoid.WalkSpeed = 16
     end)
 end)
+local player = game.Players.LocalPlayer
+local originalPosition = nil
+
+local teleportOffset = Vector3.new(0, -400, 0) -- Offset to teleport the player downwards
+
+game:GetService("UserInputService").InputBegan:Connect(function(input, isProcessed)
+    if not isProcessed and input.KeyCode == Enum.KeyCode.V then
+        local character = player.Character
+        if character then
+            local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+            if humanoidRootPart then
+                humanoidRootPart.CFrame = humanoidRootPart.CFrame * CFrame.new(teleportOffset)
+            end
+        end
+    end
+end)
