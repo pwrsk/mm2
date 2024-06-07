@@ -1,3 +1,10 @@
+local soundId = "rbxassetid://9111926008" -- Replace INSERT_SOUND_ID_HERE with the actual sound ID
+
+local sound = Instance.new("Sound")
+sound.SoundId = soundId
+sound.Parent = game.Workspace
+sound:Play()
+
 game:GetService("RunService").RenderStepped:Connect(function()
     game.Workspace.CurrentCamera.FieldOfView = 120
 end)
