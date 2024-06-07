@@ -57,23 +57,6 @@ chair2.Touched:Connect(function(hit)
         Sit(player, chair2)
     end
 end)
-local part = Instance.new("Part")
-part.Size = Vector3.new(4, 4, 4)
-part.Position = Vector3.new(-126, 136, 48)
-part.BrickColor = BrickColor.new("Royal purple")
-part.Material = Enum.Material.Glass
-part.Transparency = 0.7
-part.Anchored = true
-part.Parent = game.Workspace
-
-local function onTouched(hit)
-    local character = hit.Parent
-    local humanoid = character:FindFirstChildOfClass("Humanoid")
-    
-    if humanoid then
-        character:SetPrimaryPartCFrame(CFrame.new(-107, 157, 22))
-    end
-end
 
 part.Touched:Connect(onTouched)
 game.Lighting.TimeOfDay = 0.5
@@ -121,3 +104,28 @@ Players.PlayerAdded:Connect(function(player)
         humanoid.WalkSpeed = 16 -- Начальная скорость игрока (может быть изменена)
     end)
 end)
+
+local function createNeonPart(position, offset)
+    local part = Instance.new("Part")
+    part.Size = Vector3.new(4, 4, 4)
+    part.CFrame = CFrame.new(position)
+    part.Anchored = true
+    part.CanCollide = false
+    part.BrickColor = BrickColor.new("Bright violet")
+    part.Material = Enum.Material.Neon
+    part.Parent = game.Workspace
+
+    part.Touched:Connect(function(hit)
+        local humanoid = hit.Parent:FindFirstChildOfClass("Humanoid")
+        if humanoid then
+            local humanoidRootPart = hit.Parent:FindFirstChild("HumanoidRootPart")
+            if humanoidRootPart then
+                humanoidRootPart.CFrame = part.CFrame * CFrame.new(0, offset, 0) -- Teleport the player
+            end
+        end
+    end)
+end
+
+createNeonPart(Vector3.new(-126, 136, 48), 200)
+createNeonPart(Vector3.new(-126, 170, 48), 250)
+createNeonPart(Vector3.new(-126, 250, 48), -10)
