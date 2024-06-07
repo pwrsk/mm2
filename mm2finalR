@@ -1,2 +1,0 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/pwrsk/mm2/main/mm2'))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/pwrsk/mm2/main/mm2forfasvasx'))()
