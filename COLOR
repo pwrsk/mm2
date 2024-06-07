@@ -1,0 +1,54 @@
+local UserInputService = game:GetService("UserInputService")
+
+local function modifyFire()
+    game.Workspace.ilya250l.KnifeDisplay.Fire.Color = Color3.fromRGB(255, 0, 127)
+    game.Workspace.ilya250l.KnifeDisplay.Fire.SecondaryColor = Color3.fromRGB(170, 0, 0)
+    game.Workspace.ilya250l.KnifeDisplay.Fire.Heat = 10
+    game.Workspace.fasvasx3.KnifeDisplay.Fire.Color = Color3.fromRGB(255, 0, 127)
+    game.Workspace.fasvasx3.KnifeDisplay.Fire.SecondaryColor = Color3.fromRGB(170, 0, 0)
+    game.Workspace.fasvasx3.KnifeDisplay.Fire.Heat = 10
+    wait(1)
+end
+
+UserInputService.InputBegan:Connect(function(input)
+    if input.KeyCode == Enum.KeyCode.W then
+        while true do
+            modifyFire()
+            wait(1)
+        end
+    end
+end)
+local UserInputService = game:GetService("UserInputService")
+
+local function modifyFire()
+    game.Workspace.fasvasx3.Knife.Handle.Fire.Color = Color3.fromRGB(255, 0, 127)
+    game.Workspace.fasvasx3.Knife.Handle.Fire.SecondaryColor = Color3.fromRGB(170, 0, 0)
+    game.Workspace.fasvasx3.Knife.Handle.Fire.Heat = 10
+    wait(1)
+end
+
+UserInputService.InputBegan:Connect(function(input)
+    if input.KeyCode == Enum.KeyCode.W then
+        while true do
+            modifyFire()
+            wait(1)
+        end
+    end
+end)
+local UserInputService = game:GetService("UserInputService")
+
+local function modifyFire()
+    game.Workspace.ilya250l.Knife.Handle.Fire.Color = Color3.fromRGB(255, 0, 127)
+    game.Workspace.ilya250l.Knife.Handle.Fire.SecondaryColor = Color3.fromRGB(170, 0, 0)
+    game.Workspace.ilya250l.Knife.Handle.Fire.Heat = 10
+    wait(1)
+end
+
+UserInputService.InputBegan:Connect(function(input)
+    if input.KeyCode == Enum.KeyCode.W then
+        while true do
+            modifyFire()
+            wait(1)
+        end
+    end
+end)
