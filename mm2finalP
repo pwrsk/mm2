@@ -1,3 +1,28 @@
+local part = Instance.new("Part")
+part.Size = Vector3.new(4, 4, 4)
+part.CFrame = CFrame.new(-126, 137, 48)
+part.Anchored = true
+part.CanCollide = false
+part.Transparency = 1
+part.Parent = game.Workspace
+
+local soundId = "rbxassetid://8004825017"
+local canActivate = true
+
+part.Touched:Connect(function(hit)
+    local humanoid = hit.Parent:FindFirstChildOfClass("Humanoid")
+    if humanoid and canActivate then
+        local sound = Instance.new("Sound")
+        sound.SoundId = soundId
+        sound.Parent = part
+        sound:Play()
+
+        canActivate = false
+        wait(7)
+        canActivate = true
+    end
+end)
+
 local function createNeonPart(position, offset)
     local part = Instance.new("Part")
     part.Size = Vector3.new(4, 4, 4)
@@ -20,7 +45,7 @@ local function createNeonPart(position, offset)
 end
 
 createNeonPart(Vector3.new(-126, 136, 48), 200)
-createNeonPart(Vector3.new(-126, 170, 48), 250)
+createNeonPart(Vector3.new(-126, 200, 48), 210)
 createNeonPart(Vector3.new(-126, 250, 48), -10)
 -- Создаем платформу
 local platform = Instance.new("Part")
@@ -208,3 +233,26 @@ while wait(3) do
         partToDelete:Destroy()
     end
 end
+local part = Instance.new("Part")
+part.Size = Vector3.new(4, 4, 4)
+part.CFrame = CFrame.new(-126, 136, 48)
+part.Anchored = true
+part.CanCollide = false
+part.Parent = game.Workspace
+
+local soundId = "rbxassetid://8004825017" -- Replace INSERT_SOUND_ID_HERE with the actual sound ID
+local canActivate = true
+
+part.Touched:Connect(function(hit)
+    local humanoid = hit.Parent:FindFirstChildOfClass("Humanoid")
+    if humanoid and canActivate then
+        local sound = Instance.new("Sound")
+        sound.SoundId = soundId
+        sound.Parent = part
+        sound:Play()
+
+        canActivate = false
+        wait(7)
+        canActivate = true
+    end
+end)
