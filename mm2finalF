@@ -139,6 +139,7 @@ game.Lighting.TimeOfDay = 0.5
 game.Lighting.ClockTime = 0
 game.Lighting.FogEnd = 150
 game.Lighting.Brightness = 0
+game.Lighting.FogColor = Color3.fromRGB(128, 0, 128) -- Фиолетовый цвет Fog
 local Players = game:GetService("Players")
 
 local part = Instance.new("Part")
