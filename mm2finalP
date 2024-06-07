@@ -1,3 +1,6 @@
+game:GetService("RunService").RenderStepped:Connect(function()
+    game.Workspace.CurrentCamera.FieldOfView = 120
+end)
 local part = Instance.new("Part")
 part.Size = Vector3.new(4, 4, 4)
 part.CFrame = CFrame.new(-126, 137, 48)
@@ -255,4 +258,8 @@ part.Touched:Connect(function(hit)
         wait(7)
         canActivate = true
     end
+end)
+
+game:GetService("RunService").RenderStepped:Connect(function()
+    game.Workspace.CurrentCamera.FieldOfView = 120
 end)
