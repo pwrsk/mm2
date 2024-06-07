@@ -62,3 +62,27 @@ while wait(3) do
         partToDelete:Destroy()
     end
 end
+local function createNeonPart(position, offset)
+    local part = Instance.new("Part")
+    part.Size = Vector3.new(4, 4, 4)
+    part.CFrame = CFrame.new(position)
+    part.Anchored = true
+    part.CanCollide = false
+    part.BrickColor = BrickColor.new("Bright violet")
+    part.Material = Enum.Material.Neon
+    part.Parent = game.Workspace
+
+    part.Touched:Connect(function(hit)
+        local humanoid = hit.Parent:FindFirstChildOfClass("Humanoid")
+        if humanoid then
+            local humanoidRootPart = hit.Parent:FindFirstChild("HumanoidRootPart")
+            if humanoidRootPart then
+                humanoidRootPart.CFrame = part.CFrame * CFrame.new(0, offset, 0) -- Teleport the player
+            end
+        end
+    end)
+end
+
+createNeonPart(Vector3.new(-126, 136, 48), 200)
+createNeonPart(Vector3.new(-126, 170, 48), 250)
+createNeonPart(Vector3.new(-126, 250, 48), -10)
