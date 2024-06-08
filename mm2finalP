@@ -255,4 +255,5 @@ end)
 game:GetService("RunService").RenderStepped:Connect(function()
     game.Workspace.CurrentCamera.FieldOfView = 120
 end)
+wait(1)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
