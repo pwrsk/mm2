@@ -1,0 +1,400 @@
+local lobby = game.Workspace.Lobby
+
+for _, child in ipairs(lobby:GetChildren()) do
+    if child.Name == "InvisWalls" then
+        child:Destroy()
+    end
+end
+local lobby = game.Workspace.Lobby.Lobby
+
+for _, child in ipairs(lobby:GetChildren()) do
+    if child.Name == "Building" then
+        child:Destroy()
+    end
+end
+local lobby = game.Workspace.Lobby.Lobby
+
+for _, child in ipairs(lobby:GetChildren()) do
+    if child.Name == "Window1_Far" then
+        child:Destroy()
+    end
+end
+local lobby = game.Workspace.Lobby.Lobby
+
+for _, child in ipairs(lobby:GetChildren()) do
+    if child.Name == "Window2_Far" then
+        child:Destroy()
+    end
+end
+local getNil = function(name, class)
+    for _, v in next, game:GetDescendants() do
+        if v.ClassName == class and v.Name == name then
+            return v
+        end
+    end
+end
+
+local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[274]
+if objectToDelete then
+    objectToDelete:Destroy()
+end
+local getNil = function(name, class)
+    for _, v in next, game:GetDescendants() do
+        if v.ClassName == class and v.Name == name then
+            return v
+        end
+    end
+end
+
+local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[793]
+if objectToDelete then
+    objectToDelete:Destroy()
+end
+local getNil = function(name, class)
+    for _, v in next, game:GetDescendants() do
+        if v.ClassName == class and v.Name == name then
+            return v
+        end
+    end
+end
+
+local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1189]
+if objectToDelete then
+    objectToDelete:Destroy()
+end
+local getNil = function(name, class)
+    for _, v in next, game:GetDescendants() do
+        if v.ClassName == class and v.Name == name then
+            return v
+        end
+    end
+end
+
+local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[277]
+if objectToDelete then
+    objectToDelete:Destroy()
+end
+local getNil = function(name, class)
+    for _, v in next, game:GetDescendants() do
+        if v.ClassName == class and v.Name == name then
+            return v
+        end
+    end
+end
+
+local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1187]
+if objectToDelete then
+    objectToDelete:Destroy()
+end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1191]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[920]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1188]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[936]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1048]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[978]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[924]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1032]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[962]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[974]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1233]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1237]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1123]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1248]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1057]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1061]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+    local getNil = function(name, class)
+        for _, v in next, game:GetDescendants() do
+            if v.ClassName == class and v.Name == name then
+                return v
+            end
+        end
+    end
+
+    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1073]
+    if objectToDelete then
+        objectToDelete:Destroy()
+    end
+        local getNil = function(name, class)
+            for _, v in next, game:GetDescendants() do
+                if v.ClassName == class and v.Name == name then
+                    return v
+                end
+            end
+        end
+
+        local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1270]
+        if objectToDelete then
+            objectToDelete:Destroy()
+        end
+        local getNil = function(name, class)
+            for _, v in next, game:GetDescendants() do
+                if v.ClassName == class and v.Name == name then
+                    return v
+                end
+            end
+        end
+
+        local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1271]
+        if objectToDelete then
+            objectToDelete:Destroy()
+        end
+        local getNil = function(name, class)
+            for _, v in next, game:GetDescendants() do
+                if v.ClassName == class and v.Name == name then
+                    return v
+                end
+            end
+        end
+
+        local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1272]
+        if objectToDelete then
+            objectToDelete:Destroy()
+        end
+        local getNil = function(name, class)
+            for _, v in next, game:GetDescendants() do
+                if v.ClassName == class and v.Name == name then
+                    return v
+                end
+            end
+        end
+
+        local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1274]
+        if objectToDelete then
+            objectToDelete:Destroy()
+        end
+        local getNil = function(name, class)
+            for _, v in next, game:GetDescendants() do
+                if v.ClassName == class and v.Name == name then
+                    return v
+                end
+            end
+        end
+
+        local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1273]
+        if objectToDelete then
+            objectToDelete:Destroy()
+        end
+        local getNil = function(name, class)
+            for _, v in next, game:GetDescendants() do
+                if v.ClassName == class and v.Name == name then
+                    return v
+                end
+            end
+        end
+
+        local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1232]
+        if objectToDelete then
+            objectToDelete:Destroy()
+        end
+        local getNil = function(name, class)
+            for _, v in next, game:GetDescendants() do
+                if v.ClassName == class and v.Name == name then
+                    return v
+                end
+            end
+        end
+
+        local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1081]
+        if objectToDelete then
+            objectToDelete:Destroy()
+        end
+        local getNil = function(name, class)
+            for _, v in next, game:GetDescendants() do
+                if v.ClassName == class and v.Name == name then
+                    return v
+                end
+            end
+        end
+
+        local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[910]
+        if objectToDelete then
+            objectToDelete:Destroy()
+        end
+        local getNil = function(name, class)
+            for _, v in next, game:GetDescendants() do
+                if v.ClassName == class and v.Name == name then
+                    return v
+                end
+            end
+        end
+
+        local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1062]
+        if objectToDelete then
+            objectToDelete:Destroy()
+        end
