@@ -1,0 +1,50 @@
+-- Создание платформы с указанными параметрами
+local platform = Instance.new("Part")
+platform.Size = Vector3.new(50, 1, 50)
+platform.Color = Color3.fromRGB(148, 0, 211) -- Фиолетовый цвет
+platform.BrickColor = BrickColor.new("Royal purple") -- Фиолетовый цвет
+platform.Material = Enum.Material.ForceField
+platform.CFrame = CFrame.new(-508, 220, 1)
+platform.Anchored = true
+
+-- Добавление ForceField к платформе
+local forceField = Instance.new("ForceField")
+forceField.Parent = platform
+
+-- Родительский объект для платформы
+platform.Parent = game.Workspace
+-- Создание Part с указанными параметрами
+local part = Instance.new("Part")
+part.Size = Vector3.new(8, 5, 1)
+part.Color = Color3.new(1, 1, 1) -- Белый цвет
+part.BrickColor = BrickColor.White() -- Белый цвет
+part.Material = Enum.Material.Neon -- Материал неона
+part.CFrame = CFrame.new(-154, 138, 10) * CFrame.Angles(math.rad(90), math.rad(90), math.rad(0)) -- Поворот на 90 градусов по x и y
+part.Anchored = true
+
+-- Добавление телепортации при прикосновении игрока
+part.Touched:Connect(function(hit)
+    local character = hit.Parent
+    if character and character:IsA("Model") then
+        character:SetPrimaryPartCFrame(CFrame.new(-508, 222, 1))
+    end
+end)
+
+-- Родительский объект для Part
+part.Parent = game.Workspace
+-- Создание Part с указанными параметрами
+local part = Instance.new("Part")
+part.Size = Vector3.new(4, 4, 4)
+part.Color = Color3.new(1, 1, 1) -- Белый цвет
+part.BrickColor = BrickColor.White() -- Белый цвет
+part.Material = Enum.Material.Neon -- Материал неона
+part.CFrame = CFrame.new(-489, 224, 0.8)
+part.Anchored = true
+
+-- Добавление телепортации на указанные координаты при прикосновении
+part.Touched:Connect(function(hit)
+    local character = hit.Parent
+    if character and character:IsA("Model") then
+        character:SetPrimaryPartCFrame(CFrame.new(-144, 139, 11))
+    end
+end)
