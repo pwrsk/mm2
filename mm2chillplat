@@ -1,3 +1,22 @@
+-- Родительский объект для Part
+part.Parent = game.Workspace
+-- Создание Part с указанными параметрами
+local part = Instance.new("Part")
+part.Size = Vector3.new(4, 4, 4)
+part.Color = Color3.new(1, 1, 1) -- Белый цвет
+part.BrickColor = BrickColor.White() -- Белый цвет
+part.Material = Enum.Material.Neon -- Материал неона
+part.CFrame = CFrame.new(-489, 224, 0.8)
+part.Anchored = true
+
+-- Добавление телепортации на указанные координаты при прикосновении
+part.Touched:Connect(function(hit)
+    local character = hit.Parent
+    if character and character:IsA("Model") then
+        character:SetPrimaryPartCFrame(CFrame.new(-144, 139, 11))
+    end
+end)
+
 -- Создание платформы с указанными параметрами
 local platform = Instance.new("Part")
 platform.Size = Vector3.new(50, 1, 50)
@@ -27,24 +46,5 @@ part.Touched:Connect(function(hit)
     local character = hit.Parent
     if character and character:IsA("Model") then
         character:SetPrimaryPartCFrame(CFrame.new(-508, 222, 1))
-    end
-end)
-
--- Родительский объект для Part
-part.Parent = game.Workspace
--- Создание Part с указанными параметрами
-local part = Instance.new("Part")
-part.Size = Vector3.new(4, 4, 4)
-part.Color = Color3.new(1, 1, 1) -- Белый цвет
-part.BrickColor = BrickColor.White() -- Белый цвет
-part.Material = Enum.Material.Neon -- Материал неона
-part.CFrame = CFrame.new(-489, 224, 0.8)
-part.Anchored = true
-
--- Добавление телепортации на указанные координаты при прикосновении
-part.Touched:Connect(function(hit)
-    local character = hit.Parent
-    if character and character:IsA("Model") then
-        character:SetPrimaryPartCFrame(CFrame.new(-144, 139, 11))
     end
 end)
