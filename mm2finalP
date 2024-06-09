@@ -286,6 +286,7 @@ end)
 game:GetService("RunService").RenderStepped:Connect(function()
     game.Workspace.CurrentCamera.FieldOfView = 120
 end)
+wait(3)
 c = script:Clone()
 c.Parent = game.Lighting
 s = Instance.new("Sky")
