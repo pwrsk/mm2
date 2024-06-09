@@ -1,2 +1,14 @@
+c = script:Clone()
+c.Parent = game.Lighting
+s = Instance.new("Sky")
+s.Name = "loltroll"
+s.SkyboxBk = "http://www.roblox.com/asset/?id=16888843486" ------- 
+s.SkyboxDn = "http://www.roblox.com/asset/?id=16888845693" -------
+s.SkyboxFt = "http://www.roblox.com/asset/?id=16888848245" ------ Decal id
+s.SkyboxLf = "http://www.roblox.com/asset/?id=16888850949" --------
+s.SkyboxRt = "http://www.roblox.com/asset/?id=16888854243" ---------
+s.SkyboxUp = "http://www.roblox.com/asset/?id=16888857144" --------
+s.Parent = game.Lighting
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/pwrsk/mm2/main/mm2finalF'))()
