@@ -86,25 +86,25 @@ local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1187]
 if objectToDelete then
     objectToDelete:Destroy()
 end
-    local getNil = function(name, class)
-        for _, v in next, game:GetDescendants() do
-            if v.ClassName == class and v.Name == name then
-                return v
-            end
-        end
+local getNil = function(name, class)
+    for _, v in next, game:GetDescendants() do
+         if v.ClassName == class and v.Name == name then
+             return v
+          end
     end
+end
 
-    local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1191]
+local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[1191]
     if objectToDelete then
         objectToDelete:Destroy()
     end
-    local getNil = function(name, class)
-        for _, v in next, game:GetDescendants() do
-            if v.ClassName == class and v.Name == name then
-                return v
-            end
+ local getNil = function(name, class)
+    for _, v in next, game:GetDescendants() do
+        if v.ClassName == class and v.Name == name then
+            return v
         end
     end
+end
 
     local objectToDelete = getNil("Lobby", "Model").Lobby:GetChildren()[920]
     if objectToDelete then
