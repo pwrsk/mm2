@@ -830,7 +830,7 @@ do -- Load items
     Inner_2.Position = UDim2.new(0, 2, 0, 2)
     Inner_2.Size = UDim2.new(1, -4, 1, -4)
     Inner_2.Image = "rbxassetid://3570695787"
-    Inner_2.ImageColor3 = Color3.fromRGB(50, 0, 115)
+    Inner_2.ImageColor3 = Color3.fromRGB(32, 59, 97)
     Inner_2.ScaleType = Enum.ScaleType.Slice
     Inner_2.SliceCenter = Rect.new(100, 100, 100, 100)
     Inner_2.SliceScale = 0.050
@@ -998,7 +998,7 @@ do -- Load items
 
     Indicator_2.Name = "Indicator"
     Indicator_2.Parent = Saturation
-    Indicator_2.BackgroundColor3 = Color3.fromRGB(98, 16, 222)
+    Indicator_2.BackgroundColor3 = Color3.fromRGB(49, 88, 146)
     Indicator_2.BorderSizePixel = 0
     Indicator_2.Size = UDim2.new(1, 0, 0, 2)
 
@@ -1391,7 +1391,7 @@ local library library = {
             size = Vector2.new(300, 200),
             shadow = 10,
             transparency = 0.2,
-            color = Color3.fromRGB(83, 12, 171),
+            color = Color3.fromRGB(41, 74, 122),
             boardcolor = Color3.fromRGB(21, 22, 23),
             rounding = 5,
             animation = 0.1,
@@ -1988,9 +1988,9 @@ local library library = {
                     dropdownOptions = settings.new({
                         text = "New Dropdown",
                         size = 150,
-                        color = Color3.fromRGB(50, 4, 120),
+                        color = Color3.fromRGB(32, 59, 97),
                         rounding = options.rounding,
-                        selectioncolor = Color3.fromRGB(59, 0, 117),
+                        selectioncolor = Color3.fromRGB(32, 59, 97),
                     }).handle(dropdownOptions)
 
                     local dropdownButton = new("Dropdown")
