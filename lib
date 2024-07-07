@@ -1423,18 +1423,18 @@ local library library = {
         main.ImageColor3 = options.color
         main:FindFirstChild("Frame").BackgroundColor3 = options.color
         main.Size = UDim2.new(0, options.size.X, 0, main.Size.Y.Offset)
-        main.SliceScale = options.rounding / 100
+        main.SliceScale = options.rounding / 200
 
         content.ImageColor3 = options.boardcolor
         content.Size = UDim2.new(1, 0, 0, options.size.Y)
-        content.SliceScale = options.rounding / 100
+        content.SliceScale = options.rounding / 200
 
         function cache.update_layers(y)
             shadow.Position = UDim2.new(0, options.shadow, 0, options.shadow)
             shadow.Size = UDim2.new(1, 0, 0, y)
-            shadow.SliceScale = options.rounding / 100
+            shadow.SliceScale = options.rounding / 200
             layer.Size = UDim2.new(1, 0, 0, y)
-            layer.SliceScale = options.rounding / 100
+            layer.SliceScale = options.rounding / 200
         end cache.update_layers(main.AbsoluteSize.Y + content.AbsoluteSize.Y)
 
         content:GetPropertyChangedSignal("Size"):Connect(function()
