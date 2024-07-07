@@ -119,7 +119,7 @@ do -- Load items
     Presets.Name = "Presets"
     Presets.Parent = imgui2
     Presets.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    Presets.Size = UDim2.new(0, 100, 0, 100)
+    Presets.Size = UDim2.new(0, 200, 0, 200)
     Presets.Visible = false
 
     Label.Name = "Label"
@@ -148,7 +148,7 @@ do -- Load items
     Folder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Folder.BackgroundTransparency = 1.000
     Folder.ClipsDescendants = true
-    Folder.Size = UDim2.new(1, 0, 0, 100)
+    Folder.Size = UDim2.new(1, 0, 0, 200)
 
     Folder_2.Name = "Folder"
     Folder_2.Parent = Folder
@@ -158,7 +158,7 @@ do -- Load items
     Folder_2.Image = "rbxassetid://3570695787"
     Folder_2.ImageColor3 = Color3.fromRGB(80, 5, 150)
     Folder_2.ScaleType = Enum.ScaleType.Slice
-    Folder_2.SliceCenter = Rect.new(100, 100, 100, 100)
+    Folder_2.SliceCenter = Rect.new(200, 200, 200, 200)
     Folder_2.SliceScale = 0.050
 
     Expand.Name = "Expand"
@@ -230,7 +230,7 @@ do -- Load items
     Main.Image = "rbxassetid://3570695787"
     Main.ImageColor3 = Color3.fromRGB(10, 10, 10)
     Main.ScaleType = Enum.ScaleType.Slice
-    Main.SliceCenter = Rect.new(100, 100, 100, 100)
+    Main.SliceCenter = Rect.new(200, 200, 200, 200)
     Main.SliceScale = 0.050
 
     Frame.Parent = Main
@@ -257,7 +257,7 @@ do -- Load items
     Content.Image = "rbxassetid://3570695787"
     Content.ImageColor3 = Color3.fromRGB(21, 22, 23)
     Content.ScaleType = Enum.ScaleType.Slice
-    Content.SliceCenter = Rect.new(100, 100, 100, 100)
+    Content.SliceCenter = Rect.new(200, 200, 200, 200)
     Content.SliceScale = 0.050
 
     Frame_3.Parent = Content
@@ -276,7 +276,7 @@ do -- Load items
     Message.ImageColor3 = Color3.fromRGB(0, 0, 0)
     Message.ImageTransparency = 1.000
     Message.ScaleType = Enum.ScaleType.Slice
-    Message.SliceCenter = Rect.new(100, 100, 100, 100)
+    Message.SliceCenter = Rect.new(200, 200, 200, 200)
     Message.SliceScale = 0.050
 
     Expand_2.Name = "Expand"
@@ -314,7 +314,7 @@ do -- Load items
     Shadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
     Shadow.ImageTransparency = 0.500
     Shadow.ScaleType = Enum.ScaleType.Slice
-    Shadow.SliceCenter = Rect.new(100, 100, 100, 100)
+    Shadow.SliceCenter = Rect.new(200, 200, 200, 200)
     Shadow.SliceScale = 0.050
 
     Tabs.Name = "Tabs"
@@ -354,7 +354,7 @@ do -- Load items
     Layer.Image = "rbxassetid://3570695787"
     Layer.ImageColor3 = Color3.fromRGB(10, 10, 11)
     Layer.ScaleType = Enum.ScaleType.Slice
-    Layer.SliceCenter = Rect.new(100, 100, 100, 100)
+    Layer.SliceCenter = Rect.new(200, 200, 200, 200)
     Layer.SliceScale = 0.050
 
     Dock.Name = "Dock"
@@ -399,7 +399,7 @@ do -- Load items
     ImageLabel.Image = "rbxassetid://3570695787"
     ImageLabel.ImageColor3 = Color3.fromRGB(89, 16, 148)
     ImageLabel.ScaleType = Enum.ScaleType.Slice
-    ImageLabel.SliceCenter = Rect.new(100, 100, 100, 100)
+    ImageLabel.SliceCenter = Rect.new(200, 200, 200, 200)
     ImageLabel.SliceScale = 0.050
 
     Layer_2.Name = "Layer"
@@ -414,7 +414,7 @@ do -- Load items
     Layer_2.Image = "rbxassetid://3570695787"
     Layer_2.ImageColor3 = Color3.fromRGB(44, 12, 71)
     Layer_2.ScaleType = Enum.ScaleType.Slice
-    Layer_2.SliceCenter = Rect.new(100, 100, 100, 100)
+    Layer_2.SliceCenter = Rect.new(200, 200, 200, 200)
     Layer_2.SliceScale = 0.050
 
     Check.Name = "Check"
@@ -452,7 +452,7 @@ do -- Load items
     Outer.Image = "rbxassetid://3570695787"
     Outer.ImageColor3 = Color3.fromRGB(59, 59, 68)
     Outer.ScaleType = Enum.ScaleType.Slice
-    Outer.SliceCenter = Rect.new(100, 100, 100, 100)
+    Outer.SliceCenter = Rect.new(200, 200, 200, 200)
     Outer.SliceScale = 0.050
 
     Inner.Name = "Inner"
@@ -464,7 +464,7 @@ do -- Load items
     Inner.Image = "rbxassetid://3570695787"
     Inner.ImageColor3 = Color3.fromRGB(58, 18, 97)
     Inner.ScaleType = Enum.ScaleType.Slice
-    Inner.SliceCenter = Rect.new(100, 100, 100, 100)
+    Inner.SliceCenter = Rect.new(200, 200, 200, 200)
     Inner.SliceScale = 0.050
 
     Slider_2.Name = "Slider"
@@ -519,7 +519,7 @@ do -- Load items
     ImageLabel_2.Image = "rbxassetid://3570695787"
     ImageLabel_2.ImageColor3 = Color3.fromRGB(74, 11, 138)
     ImageLabel_2.ScaleType = Enum.ScaleType.Slice
-    ImageLabel_2.SliceCenter = Rect.new(100, 100, 100, 100)
+    ImageLabel_2.SliceCenter = Rect.new(200, 200, 200, 200)
     ImageLabel_2.SliceScale = 0.050
 
     Layer_3.Name = "Layer"
@@ -534,17 +534,17 @@ do -- Load items
     Layer_3.Image = "rbxassetid://3570695787"
     Layer_3.ImageColor3 = Color3.fromRGB(43, 12, 69)
     Layer_3.ScaleType = Enum.ScaleType.Slice
-    Layer_3.SliceCenter = Rect.new(100, 100, 100, 100)
+    Layer_3.SliceCenter = Rect.new(200, 200, 200, 200)
     Layer_3.SliceScale = 0.050
 
     Card.Name = "Card"
     Card.Parent = Presets
     Card.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Card.BackgroundTransparency = 1.000
-    Card.Size = UDim2.new(1, 0, 0, 100)
+    Card.Size = UDim2.new(1, 0, 0, 200)
     Card.Image = "rbxassetid://3570695787"
     Card.ScaleType = Enum.ScaleType.Slice
-    Card.SliceCenter = Rect.new(100, 100, 100, 100)
+    Card.SliceCenter = Rect.new(200, 200, 200, 200)
     Card.SliceScale = 0.120
 
     UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 129, 167)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 160, 168))}
@@ -570,15 +570,15 @@ do -- Load items
     Roundify.Image = "rbxassetid://3570695787"
     Roundify.ImageColor3 = Color3.fromRGB(200, 200, 200)
     Roundify.ScaleType = Enum.ScaleType.Slice
-    Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+    Roundify.SliceCenter = Rect.new(200, 200, 200, 200)
     Roundify.SliceScale = 0.120
 
     heading.Name = "heading"
     heading.Parent = Card
     heading.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     heading.BackgroundTransparency = 1.000
-    heading.Position = UDim2.new(0, 100, 0, 24)
-    heading.Size = UDim2.new(1, -100, 0, 50)
+    heading.Position = UDim2.new(0, 200, 0, 24)
+    heading.Size = UDim2.new(1, -200, 0, 50)
     heading.ZIndex = 3
     heading.Font = Enum.Font.GothamBlack
     heading.Text = "welcome, singularity"
@@ -597,15 +597,15 @@ do -- Load items
     Frame_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
     Frame_5.ImageTransparency = 0.500
     Frame_5.ScaleType = Enum.ScaleType.Slice
-    Frame_5.SliceCenter = Rect.new(100, 100, 100, 100)
+    Frame_5.SliceCenter = Rect.new(200, 200, 200, 200)
     Frame_5.SliceScale = 0.120
 
     SubHeading.Name = "SubHeading"
     SubHeading.Parent = Card
     SubHeading.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     SubHeading.BackgroundTransparency = 1.000
-    SubHeading.Position = UDim2.new(0, 100, 0, 44)
-    SubHeading.Size = UDim2.new(1, -100, 0, 50)
+    SubHeading.Position = UDim2.new(0, 200, 0, 44)
+    SubHeading.Size = UDim2.new(1, -200, 0, 50)
     SubHeading.ZIndex = 3
     SubHeading.Font = Enum.Font.Gotham
     SubHeading.Text = "subheading"
@@ -644,7 +644,7 @@ do -- Load items
     ImageLabel_4.Image = "rbxassetid://3570695787"
     ImageLabel_4.ImageColor3 = Color3.fromRGB(255, 0, 0)
     ImageLabel_4.ScaleType = Enum.ScaleType.Slice
-    ImageLabel_4.SliceCenter = Rect.new(100, 100, 100, 100)
+    ImageLabel_4.SliceCenter = Rect.new(200, 200, 200, 200)
     ImageLabel_4.SliceScale = 0.050
 
     ImageLabel_5.Parent = ImageLabel_4
@@ -667,7 +667,7 @@ do -- Load items
     Layer_4.Image = "rbxassetid://3570695787"
     Layer_4.ImageColor3 = Color3.fromRGB(127, 0, 0)
     Layer_4.ScaleType = Enum.ScaleType.Slice
-    Layer_4.SliceCenter = Rect.new(100, 100, 100, 100)
+    Layer_4.SliceCenter = Rect.new(200, 200, 200, 200)
     Layer_4.SliceScale = 0.050
 
     Text_3.Name = "Text"
@@ -707,7 +707,7 @@ do -- Load items
     ImageLabel_6.Image = "rbxassetid://3570695787"
     ImageLabel_6.ImageColor3 = Color3.fromRGB(42, 44, 46)
     ImageLabel_6.ScaleType = Enum.ScaleType.Slice
-    ImageLabel_6.SliceCenter = Rect.new(100, 100, 100, 100)
+    ImageLabel_6.SliceCenter = Rect.new(200, 200, 200, 200)
     ImageLabel_6.SliceScale = 0.050
 
     DropdownWindow.Name = "DropdownWindow"
@@ -720,7 +720,7 @@ do -- Load items
     DropdownWindow.Image = "rbxassetid://3570695787"
     DropdownWindow.ImageColor3 = Color3.fromRGB(10, 10, 10)
     DropdownWindow.ScaleType = Enum.ScaleType.Slice
-    DropdownWindow.SliceCenter = Rect.new(100, 100, 100, 100)
+    DropdownWindow.SliceCenter = Rect.new(200, 200, 200, 200)
     DropdownWindow.SliceScale = 0.050
 
     Frame_6.Parent = DropdownWindow
@@ -762,7 +762,7 @@ do -- Load items
     Shadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
     Shadow_2.ImageTransparency = 0.500
     Shadow_2.ScaleType = Enum.ScaleType.Slice
-    Shadow_2.SliceCenter = Rect.new(100, 100, 100, 100)
+    Shadow_2.SliceCenter = Rect.new(200, 200, 200, 200)
     Shadow_2.SliceScale = 0.050
 
     Layer_5.Name = "Layer"
@@ -775,7 +775,7 @@ do -- Load items
     Layer_5.Image = "rbxassetid://3570695787"
     Layer_5.ImageColor3 = Color3.fromRGB(10, 10, 11)
     Layer_5.ScaleType = Enum.ScaleType.Slice
-    Layer_5.SliceCenter = Rect.new(100, 100, 100, 100)
+    Layer_5.SliceCenter = Rect.new(200, 200, 200, 200)
     Layer_5.SliceScale = 0.050
 
     Content_2.Name = "Content"
@@ -788,7 +788,7 @@ do -- Load items
     Content_2.Image = "rbxassetid://3570695787"
     Content_2.ImageColor3 = Color3.fromRGB(21, 22, 23)
     Content_2.ScaleType = Enum.ScaleType.Slice
-    Content_2.SliceCenter = Rect.new(100, 100, 100, 100)
+    Content_2.SliceCenter = Rect.new(200, 200, 200, 200)
     Content_2.SliceScale = 0.050
 
     Items_4.Name = "Items"
@@ -820,7 +820,7 @@ do -- Load items
     Outer_2.Image = "rbxassetid://3570695787"
     Outer_2.ImageColor3 = Color3.fromRGB(59, 59, 68)
     Outer_2.ScaleType = Enum.ScaleType.Slice
-    Outer_2.SliceCenter = Rect.new(100, 100, 100, 100)
+    Outer_2.SliceCenter = Rect.new(200, 200, 200, 200)
     Outer_2.SliceScale = 0.050
 
     Inner_2.Name = "Inner"
@@ -832,7 +832,7 @@ do -- Load items
     Inner_2.Image = "rbxassetid://3570695787"
     Inner_2.ImageColor3 = Color3.fromRGB(70, 24, 105)
     Inner_2.ScaleType = Enum.ScaleType.Slice
-    Inner_2.SliceCenter = Rect.new(100, 100, 100, 100)
+    Inner_2.SliceCenter = Rect.new(200, 200, 200, 200)
     Inner_2.SliceScale = 0.050
 
     ImageLabel_7.Parent = Inner_2
@@ -879,7 +879,7 @@ do -- Load items
     Cache.Name = "Cache"
     Cache.Parent = DropdownWindow
     Cache.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    Cache.Size = UDim2.new(0, 100, 0, 100)
+    Cache.Size = UDim2.new(0, 200, 0, 200)
     Cache.Visible = false
 
     ColorPickerWindow.Name = "ColorPickerWindow"
@@ -892,7 +892,7 @@ do -- Load items
     ColorPickerWindow.Image = "rbxassetid://3570695787"
     ColorPickerWindow.ImageColor3 = Color3.fromRGB(10, 10, 10)
     ColorPickerWindow.ScaleType = Enum.ScaleType.Slice
-    ColorPickerWindow.SliceCenter = Rect.new(100, 100, 100, 100)
+    ColorPickerWindow.SliceCenter = Rect.new(200, 200, 200, 200)
     ColorPickerWindow.SliceScale = 0.050
 
     Frame_8.Parent = ColorPickerWindow
@@ -934,7 +934,7 @@ do -- Load items
     Shadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
     Shadow_3.ImageTransparency = 0.500
     Shadow_3.ScaleType = Enum.ScaleType.Slice
-    Shadow_3.SliceCenter = Rect.new(100, 100, 100, 100)
+    Shadow_3.SliceCenter = Rect.new(200, 200, 200, 200)
     Shadow_3.SliceScale = 0.050
 
     Layer_6.Name = "Layer"
@@ -947,7 +947,7 @@ do -- Load items
     Layer_6.Image = "rbxassetid://3570695787"
     Layer_6.ImageColor3 = Color3.fromRGB(10, 10, 11)
     Layer_6.ScaleType = Enum.ScaleType.Slice
-    Layer_6.SliceCenter = Rect.new(100, 100, 100, 100)
+    Layer_6.SliceCenter = Rect.new(200, 200, 200, 200)
     Layer_6.SliceScale = 0.050
 
     Expand_4.Name = "Expand"
@@ -970,7 +970,7 @@ do -- Load items
     Content_3.Image = "rbxassetid://3570695787"
     Content_3.ImageColor3 = Color3.fromRGB(21, 22, 23)
     Content_3.ScaleType = Enum.ScaleType.Slice
-    Content_3.SliceCenter = Rect.new(100, 100, 100, 100)
+    Content_3.SliceCenter = Rect.new(200, 200, 200, 200)
     Content_3.SliceScale = 0.050
 
     Palette.Name = "Palette"
@@ -1010,7 +1010,7 @@ do -- Load items
     FinalColor.Size = UDim2.new(0, 15, 0, 15)
     FinalColor.Image = "rbxassetid://3570695787"
     FinalColor.ScaleType = Enum.ScaleType.Slice
-    FinalColor.SliceCenter = Rect.new(100, 100, 100, 100)
+    FinalColor.SliceCenter = Rect.new(200, 200, 200, 200)
     FinalColor.SliceScale = 0.800
 
     SaturationColor.Name = "SaturationColor"
@@ -1021,7 +1021,7 @@ do -- Load items
     SaturationColor.Size = UDim2.new(0, 15, 0, 15)
     SaturationColor.Image = "rbxassetid://3570695787"
     SaturationColor.ScaleType = Enum.ScaleType.Slice
-    SaturationColor.SliceCenter = Rect.new(100, 100, 100, 100)
+    SaturationColor.SliceCenter = Rect.new(200, 200, 200, 200)
     SaturationColor.SliceScale = 0.800
 
     PaletteColor.Name = "PaletteColor"
@@ -1032,7 +1032,7 @@ do -- Load items
     PaletteColor.Size = UDim2.new(0, 15, 0, 15)
     PaletteColor.Image = "rbxassetid://3570695787"
     PaletteColor.ScaleType = Enum.ScaleType.Slice
-    PaletteColor.SliceCenter = Rect.new(100, 100, 100, 100)
+    PaletteColor.SliceCenter = Rect.new(200, 200, 200, 200)
     PaletteColor.SliceScale = 0.800
 
     TextLabel.Parent = Content_3
@@ -1060,7 +1060,7 @@ do -- Load items
     Outer_3.Image = "rbxassetid://3570695787"
     Outer_3.ImageColor3 = Color3.fromRGB(59, 59, 68)
     Outer_3.ScaleType = Enum.ScaleType.Slice
-    Outer_3.SliceCenter = Rect.new(100, 100, 100, 100)
+    Outer_3.SliceCenter = Rect.new(200, 200, 200, 200)
     Outer_3.SliceScale = 0.050
 
     Inner_3.Name = "Inner"
@@ -1072,7 +1072,7 @@ do -- Load items
     Inner_3.Image = "rbxassetid://3570695787"
     Inner_3.ImageColor3 = Color3.fromRGB(73, 23, 105)
     Inner_3.ScaleType = Enum.ScaleType.Slice
-    Inner_3.SliceCenter = Rect.new(100, 100, 100, 100)
+    Inner_3.SliceCenter = Rect.new(200, 200, 200, 200)
     Inner_3.SliceScale = 0.050
 
     ImageLabel_8.Parent = Inner_3
@@ -1080,7 +1080,7 @@ do -- Load items
     ImageLabel_8.BackgroundTransparency = 1.000
     ImageLabel_8.Position = UDim2.new(1, -26, 1, -16)
     ImageLabel_8.Size = UDim2.new(0, 16, 0, 16)
-    ImageLabel_8.Image = "rbxassetid://11145100810"
+    ImageLabel_8.Image = "rbxassetid://11145200810"
 
     Value_2.Name = "Value"
     Value_2.Parent = Inner_3
@@ -1109,7 +1109,7 @@ do -- Load items
     Cache_2.Name = "Cache"
     Cache_2.Parent = imgui2
     Cache_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    Cache_2.Size = UDim2.new(0, 100, 0, 100)
+    Cache_2.Size = UDim2.new(0, 200, 0, 200)
     Cache_2.Visible = false
 end
 
@@ -1198,7 +1198,7 @@ local browsingWindow = { }
 
 local function updateWindowHistory()
     for i, v in next, windowHistory do
-        local offset = 9e3 - v * 100
+        local offset = 9e3 - v * 200
         i.ZIndex = rawget(windowCache[i], i) + offset
         for i2, v2 in next, i:GetDescendants() do
             if pcall(function() return v2.ZIndex end) then
@@ -1395,7 +1395,7 @@ local library library = {
             boardcolor = Color3.fromRGB(21, 22, 23),
             rounding = 5,
             animation = 0.1,
-            position = UDim2.new(0, 100, 0, 100),
+            position = UDim2.new(0, 200, 0, 200),
         }).handle(options)
 
         local main = new("Main") main.Parent = ScreenGui
@@ -1551,8 +1551,8 @@ local library library = {
                     local Layer = button:FindFirstChild("Layer")
                     ImageLabel.ImageColor3 = buttonOptions.color
                     Layer.ImageColor3 = tint(buttonOptions.color)
-                    ImageLabel.SliceScale = buttonOptions.rounding / 100
-                    Layer.SliceScale = buttonOptions.rounding / 100
+                    ImageLabel.SliceScale = buttonOptions.rounding / 200
+                    Layer.SliceScale = buttonOptions.rounding / 200
                     hoverColor(ImageLabel)
 
                     function self.setColor(color)
@@ -1597,8 +1597,8 @@ local library library = {
                     local layer = button:FindFirstChild("Layer")
                     ImageLabel.ImageColor3 = switchOptions.color
                     layer.ImageColor3 = tint(switchOptions.color)
-                    ImageLabel.SliceScale = switchOptions.rounding / 100
-                    layer.SliceScale = switchOptions.rounding / 100
+                    ImageLabel.SliceScale = switchOptions.rounding / 200
+                    layer.SliceScale = switchOptions.rounding / 200
 
                     text:GetPropertyChangedSignal("Text"):Connect(function()
                         switch.Size = UDim2.new(0, 28 + text.TextBounds.X, 0, 20)
@@ -1650,7 +1650,7 @@ local library library = {
                         text = "New Slider",
                         size = 150,
                         min = 0,
-                        max = 100,
+                        max = 200,
                         value = 0,
                         color = options.color,
                         barcolor = bleach(options.color),
@@ -1676,8 +1676,8 @@ local library library = {
                     local value = inner:FindFirstChild("Value")
                     inner.ClipsDescendants = true
 
-                    outer.SliceScale = sliderOptions.rounding / 100
-                    inner.SliceScale = sliderOptions.rounding / 100
+                    outer.SliceScale = sliderOptions.rounding / 200
+                    inner.SliceScale = sliderOptions.rounding / 200
                     inner.ImageColor3 = sliderOptions.color
                     _slider.BackgroundColor3 = sliderOptions.barcolor
 
@@ -1775,7 +1775,7 @@ local library library = {
                     colorOptions = settings.new({
                         text = "New Color Picker",
                         color = Color3.new(1, 0, 0),
-                        position = UDim2.new(0, 100, 0, 100),
+                        position = UDim2.new(0, 200, 0, 200),
                     }).handle(colorOptions)
 
                     local colorPickerButton = new("ColorPicker")
@@ -1829,9 +1829,9 @@ local library library = {
                     function colorCache.update_layers(y)
                         colorPicker:FindFirstChild("Shadow").Position = UDim2.new(0, options.shadow, 0, options.shadow)
                         colorPicker:FindFirstChild("Shadow").Size = UDim2.new(1, 0, 0, y)
-                        colorPicker:FindFirstChild("Shadow").SliceScale = options.rounding / 100
+                        colorPicker:FindFirstChild("Shadow").SliceScale = options.rounding / 200
                         colorPicker:FindFirstChild("Layer").Size = UDim2.new(1, 0, 0, y)
-                        colorPicker:FindFirstChild("Layer").SliceScale = options.rounding / 100
+                        colorPicker:FindFirstChild("Layer").SliceScale = options.rounding / 200
                     end colorCache.update_layers(colorPicker.AbsoluteSize.Y + colorPicker:FindFirstChild("Content").AbsoluteSize.Y)
 
                     colorPicker:FindFirstChild("Content"):GetPropertyChangedSignal("Size"):Connect(function()
@@ -2004,8 +2004,8 @@ local library library = {
                     local outer = dropdownButton:FindFirstChild("Outer")
                     local inner = outer:FindFirstChild("Inner")
                     inner.ImageColor3 = dropdownOptions.color
-                    outer.SliceScale = dropdownOptions.rounding / 100
-                    inner.SliceScale = dropdownOptions.rounding / 100
+                    outer.SliceScale = dropdownOptions.rounding / 200
+                    inner.SliceScale = dropdownOptions.rounding / 200
                     inner:FindFirstChild("Value").Text = "[...]"
 
                     text.Text = dropdownOptions.text
@@ -2053,9 +2053,9 @@ local library library = {
                     function dropdownCache.update_layers(y)
                         dropdownWindow:FindFirstChild("Shadow").Position = UDim2.new(0, options.shadow, 0, options.shadow)
                         dropdownWindow:FindFirstChild("Shadow").Size = UDim2.new(1, 0, 0, y)
-                        dropdownWindow:FindFirstChild("Shadow").SliceScale = options.rounding / 100
+                        dropdownWindow:FindFirstChild("Shadow").SliceScale = options.rounding / 200
                         dropdownWindow:FindFirstChild("Layer").Size = UDim2.new(1, 0, 0, y)
-                        dropdownWindow:FindFirstChild("Layer").SliceScale = options.rounding / 100
+                        dropdownWindow:FindFirstChild("Layer").SliceScale = options.rounding / 200
                     end dropdownCache.update_layers(dropdownWindow.AbsoluteSize.Y + dropdownWindow:FindFirstChild("Content").AbsoluteSize.Y)
 
                     dropdownWindow:FindFirstChild("Content"):GetPropertyChangedSignal("Size"):Connect(function()
@@ -2308,7 +2308,7 @@ local library library = {
 
                     local _folder = folder:FindFirstChild("Folder")
                     local folderItems = folder:FindFirstChild("Items")
-                    _folder.SliceScale = folderOptions.rounding / 100
+                    _folder.SliceScale = folderOptions.rounding / 200
                     _folder.ImageColor3 = folderOptions.color
 
                     function self.setColor(color)
